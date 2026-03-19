@@ -26,7 +26,7 @@ The API now starts in a degraded mode when MongoDB Atlas is temporarily unavaila
 ```bash
 # Clone the repository
 git clone https://github.com/senapati484/items-rest-api.git
-cd Rest-API
+cd items-rest-api
 
 # Install dependencies
 npm install
