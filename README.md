@@ -25,7 +25,7 @@ The API now starts in a degraded mode when MongoDB Atlas is temporarily unavaila
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/senapati484/items-rest-api.git
 cd Rest-API
 
 # Install dependencies
@@ -70,7 +70,7 @@ Server runs on `http://localhost:3000`
 
 ## API Documentation
 
-Once running, visit: **http://localhost:3000/api-docs**
+Once running, visit: **<http://localhost:3000/api-docs>**
 
 Interactive Swagger UI lets you test all endpoints directly in the browser.
 
@@ -163,6 +163,7 @@ curl "http://localhost:3000/api/items?page=1&limit=10&search=mouse&category=Elec
 All responses follow this structure:
 
 **Success:**
+
 ```json
 {
   "success": true,
@@ -172,6 +173,7 @@ All responses follow this structure:
 ```
 
 **Error:**
+
 ```json
 {
   "success": false,
